@@ -1,6 +1,6 @@
 # meals_app
 
-A new Flutter project.
+Meals app for implement coding skills. 
 
 ## Getting Started
 
