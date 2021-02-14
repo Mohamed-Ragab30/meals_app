@@ -11,7 +11,9 @@ class CategoryMealsScreen extends StatelessWidget {
       appBar: (AppBar(
         title: Text(args['title']),
       )),
-      body: Container(),
+      body: Container(
+        child: Center(child: Text('welcome to ${args['title']}')),
+      ),
     );
   }
 }
