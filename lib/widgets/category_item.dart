@@ -21,10 +21,10 @@ class CategoryItem extends StatelessWidget {
         },
         child: Container(
           padding: const EdgeInsets.all(15),
-          child: Center(
-            child: Text(
-              title,
-            ),
+          alignment: Alignment.center,
+          child: Text(
+            title,
+            style: ThemeData.light().textTheme.bodyText1.copyWith(fontSize: 20),
           ),
           width: 200,
           height: 200,
